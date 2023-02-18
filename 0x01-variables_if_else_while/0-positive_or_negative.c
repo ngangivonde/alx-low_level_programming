@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdlib>
 #include <time.h>
+#include <stdlib>
 /**
- * main - Determines if randomly generated number is postive, negative or zero
- * Return: Always 0 (success)
+ * main - Determine if randomly generated number is postive, negative or zero
+ * return: Always 0 (success)
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is negative\n", n);
+		printf("%d is negative", n);
 	}
 	return (0);
 }
